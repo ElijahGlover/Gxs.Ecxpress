@@ -1,12 +1,11 @@
 # Gxs.Ecxpress
-.Net FTP Bindings For Sending And Receiving EDI Messages With GXS/OpenText Ecxpress
+.Net FTP Bindings For Sending And Receiving EDI Messages With [GXS/OpenText Ecxpress](http://www.opentext.com/)
 
-GXS only supports Active FTP, which means your network/firewalls need to be correctly configured.
-This project was an effort in trying to remove old legacy software and was mostly derived from reverse engineering production software using wireshark
+GXS Ecxpress only supports Active FTP, which means your network/firewalls need to be [correctly configured](http://fetchsoftworks.com/fetch/help/Contents/Concepts/ActiveAndPassive.html)
+This project was an effort in trying to remove old legacy software and was mostly derived from reverse engineering production software using WireShark.
 
 This library only sends and recieves EDI messages and doesn't support parsing/reading them.
 
-.
 ```c#
 public static void Main()
 {
